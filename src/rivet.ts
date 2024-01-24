@@ -10,7 +10,7 @@ let openAiKey = process.env.OPEN_API_KEY;
 
 let result = await runGraphInFile(project, {
     graph: graph,
-    remoteDebugger: debuggerServer,
+    //remoteDebugger: debuggerServer,
     inputs: {
       "prompt": "Please write me a short poem about a dog."
     },
